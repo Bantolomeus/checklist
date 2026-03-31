@@ -5,6 +5,7 @@ Regardless of who is doing it.
 
 
 # The CHECKLIST
+## Design
 - [ ] verify the text color is the same as in Figma. For all available colors.
   - [ ] light mode
   - [ ] dark mode
@@ -35,10 +36,10 @@ Regardless of who is doing it.
 - [ ] verify that the padding matches with Figma
 - [ ] verify that the margin matches with Figma
 - [ ] verify that empty spaces have the correct width, as stated in Figma
-- [ ] verify that all optional elements are shown in at least one variation in storybook (not necessarily all in one)
-- [ ] verify that all configurations are shown in at least one variation in storybook
-  - [ ] verify that all configurations are working 
-  - [ ] verify that all combinations of configurations that are valid work together  
+- [ ] read everything that stands in Figma regarding your component and compare it with your implementation that everything matches 
+
+
+## accessibility
 - [ ] verify that keyboard navigation is working
   - [ ] pressing the tab key will move you into the first interactive element
   - [ ] pressing tab multiple times will move you through interactive elements 
@@ -47,6 +48,14 @@ Regardless of who is doing it.
   - [ ] everything that works for the tab key also works for tab + shift just backwards 
 - [ ] If a component has more keyboard strokes for interactions, then they also need to work
   - [ ] look up your component(s) [here](https://www.w3.org/WAI/ARIA/apg/patterns/) and implement the accessibility accordingly
+
+
+
+## Functionality
+- [ ] verify that all optional elements are shown in at least one variation in storybook (not necessarily all in one)
+- [ ] verify that all configurations are shown in at least one variation in storybook
+  - [ ] verify that all configurations are working 
+  - [ ] verify that all combinations of configurations that are valid work together  
 - [ ] verify that every acceptance criteria is fulfilled
 - [ ] verify that everything from in scope is implemented and works 
 - [ ] verify that the component behaves as the intended behavior  
@@ -54,7 +63,6 @@ Regardless of who is doing it.
 - [ ] verify that a large number of characters (20 mio) do not break components  
 - [ ] verify that responsive behavior works as intended ([one source for it](https://www.figma.com/design/qRiJQ2gKcuAkBKiRZkagVe/Playground--GrAS-Nova-Library-Setup?node-id=33-27569&p=f&m=dev))
 - [ ] use everything that the component has to offer
-- [ ] read everything that stands in Figma regarding your component and compare it with your implementation that everything matches 
 - [ ] stretch and slim down the component to see the responsive behavior
 - [ ] If something feels strange, ask a designer and/or dev and/or po.
 - [ ] hover over icons
